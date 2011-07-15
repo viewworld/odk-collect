@@ -155,7 +155,7 @@ public class DownloadFormsTask extends
                 message += se.getMessage();
             } catch (Exception e) {
                 e.printStackTrace();
-                message += e.getCause().getMessage();
+                message += e.getMessage();
             }
             count++;
             if (message.equalsIgnoreCase("")) {
